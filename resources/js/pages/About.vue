@@ -1,11 +1,9 @@
 
 <template>
-    About 
-    <br>
-    <Footer />
+    <Layout>About</Layout>
 </template>
     
     <script setup>
-    import Footer from "./Footer.vue";
+    import Layout from "@/components/Layout.vue";
 
     </script>
