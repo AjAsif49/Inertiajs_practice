@@ -1,15 +1,18 @@
 
 <template>
-        <Layout>Test 
-            <br>
-            <button @click="count++">+</button>{{ count }}
-            <button @click="count--">-</button> 
-        </Layout>
+        Test 
+        <br>
+        <button @click="count++">+</button>{{ count }}
+        <button @click="count--">-</button> 
+        
 </template>
+
+
+<script></script>
+
     
-    <script setup>
-    import Layout from "@/components/Layout.vue";
+<script setup>
     import { ref } from "vue";
     const count = ref(0);
 
-    </script>
+</script>
