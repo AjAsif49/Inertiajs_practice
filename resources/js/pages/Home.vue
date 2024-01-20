@@ -1,6 +1,6 @@
 
 <template>
-        Test 
+        Home 
         <br>
         <button @click="count++">+</button>{{ count }}
         <button @click="count--">-</button> 
